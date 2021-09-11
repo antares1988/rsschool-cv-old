@@ -20,3 +20,16 @@ My experience in web development is not great yet. I got gold certification in H
 - JavaScript (beginner)
 - Git
 - Terminal
+
+## Code example
+
+```javascript
+function multiply(a, b) {
+  return a * b
+}
+```
+
+### Languages
+
+- Russian - native speaker
+- English (A1+)
