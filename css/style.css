@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:after,
+*:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:active,
+:focus {
+  outline: none;
+}
+a:active,
+a:focus {
+  outline: none;
+}
+
+aside,
+footer,
+header,
+nav {
+  display: block;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 18px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  background-color: rgb(201, 196, 196);
+  width: 100%;
+
+  letter-spacing: 0.6px;
+}
+.container {
+  width: 1000px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 300px;
+  margin: 30px;
+}
+.logo > img {
+  width: 100%;
+  border-radius: 50%;
+}
+nav > ul {
+  display: flex;
+  margin: 50px 30px 0 0;
+}
+nav > ul > li {
+  margin-left: 10px;
+  font-size: 18px;
+}
+nav > ul > li > a {
+  padding: 10px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 24px;
+  text-transform: capitalize;
+  padding: 20px;
+  text-align: center;
+}
+h3 {
+  font-size: 24px;
+  text-transform: capitalize;
+  margin: 30px;
+}
+p {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.6px;
+  padding-left: 10px;
+  text-indent: 15px;
+}
+.aboutMe {
+  margin: 15px;
+  padding-bottom: 15px;
+}
+.myLanguages > li,
+.myStrengths > li,
+.skills > li {
+  list-style: circle;
+  margin-left: 50px;
+  line-height: 24px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+pre {
+  background-color: rgb(182, 181, 181);
+  margin: 0 20% 0 5%;
+}
+.contacts__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 30px 15px;
+}
+.contacts__list a {
+  color: black;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(238, 235, 235);
+  height: 70px;
+  padding: 15px;
+}
+.footer__logo > a > .git {
+  width: 50px;
+}
+.footer__rs {
+  width: 60px;
+}
